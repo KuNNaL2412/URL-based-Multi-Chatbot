@@ -2,7 +2,6 @@ import os
 import pickle
 import requests
 import streamlit as st
-from PyPDF2 import PdfReader
 from bs4 import BeautifulSoup
 from langchain.llms import OpenAI
 from langchain.vectorstores import FAISS
